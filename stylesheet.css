@@ -26,7 +26,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(名桜大初手話会.jpeg);
+  background-image: url(背景画像.png);
   background-size: cover;
   color: white;
   text-align: center;
@@ -164,6 +164,38 @@ header {
   font-weight: 500;
 }
 
+.lesson-icon2 a {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-green {
+  padding: 15px 20px;
+  background-color: #5dca88;
+  box-shadow: 0 7px #1a7940;
+}
+
+.btn-yellow {
+  padding: 15px 20px;
+  background-color: #deea0a;
+  box-shadow: 0 7px #556201;
+}
+
+.btn-red {
+  padding: 15px 20px;
+  background-color: #ff0000;
+  box-shadow: 0 7px #5c0303;
+}
+
+.btn-blue {
+  padding: 15px 20px;
+  background-color: #2b0fff;
+  box-shadow: 0 7px #020a48;
+}
+
 /* 
 position:
  relative;→
@@ -190,9 +222,9 @@ position:
 }
 
 .message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  box-shadow: 0 7px #1a7940;
+  padding: 15px 50px;
+  background-color: #33f0ca;
+  box-shadow: 0 7px #238b8d;
 }
 
 .message:active {
