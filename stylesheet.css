@@ -246,6 +246,7 @@ footer img {
 footer p {
   color: #b3aeb5;
   font-size: 12px;
+  float: right;
 }
 
 footer {
