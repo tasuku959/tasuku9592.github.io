@@ -107,14 +107,15 @@ header {
   float: left;
 }
 
+.header-right {
+  float: right;
+}
+
+
 /* .header-left logo{
   width: 200px;
 } */
 
-.header-right {
-  float: right;
-  margin-right: -10px;
-}
 
 .header-right a {
   line-height: 65px;
@@ -172,28 +173,32 @@ header {
   font-weight: 500;
 }
 
-.btn-green {
+.green {
   padding: 15px 20px;
   background-color: #5dca88;
-  box-shadow: 0 7px #1a7940;
+  box-shadow: 8px 7px #1a7940;
+  color: black;
 }
 
-.btn-yellow {
+.yellow {
   padding: 15px 20px;
   background-color: #deea0a;
-  box-shadow: 0 7px #556201;
+  box-shadow: 8px 7px #556201;
+  color: black;
 }
 
-.btn-red {
+.red {
   padding: 15px 20px;
-  background-color: #ff0000;
-  box-shadow: 0 7px #5c0303;
+  background-color: #e04747;
+  box-shadow: 8px 7px #5c0303;
+  color: black;
 }
 
-.btn-blue {
+.blue {
   padding: 15px 20px;
-  background-color: #2b0fff;
-  box-shadow: 0 7px #020a48;
+  background-color: #6452e6;
+  box-shadow: 8px 7px #020a48;
+  color: black;
 }
 
 /* 
@@ -224,7 +229,8 @@ position:
 .message {
   padding: 15px 50px;
   background-color: #33f0ca;
-  box-shadow: 0 7px #238b8d;
+  box-shadow: 8px 7px #238b8d;
+  color: black;
 }
 
 .message:active {
